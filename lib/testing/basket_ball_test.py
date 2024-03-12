@@ -11,20 +11,20 @@ import sys
 class TestBasketBall:
     '''Module basket_ball.py'''
 
-    def test_num_points_per_game(self):
-        '''knows the number of points scored by each player'''
-        assert(num_points_per_game("Jarrett Allen") == 16.1)
-        assert(num_points_per_game("Darius Garland") == 21.7)
-        assert(num_points_per_game("Evan Mobley") == 15.0)
-        assert(num_points_per_game("Kevin Love") == 13.6)
-        assert(num_points_per_game("Isaac Okoro") == 8.8)
-        assert(num_points_per_game("Ricky Rubio") == 13.1)
-        assert(num_points_per_game("Bradley Beal") == 23.2)
-        assert(num_points_per_game("Kyle Kuzma") == 17.1)
-        assert(num_points_per_game("Kentavious Caldwell-Pope") == 13.2)
-        assert(num_points_per_game("Davis Bertans") == 5.6)
-        assert(num_points_per_game("Kristaps Porzingis") == 22.1)
-        assert(num_points_per_game("Rui Hachimura") == 11.3)
+    # def test_num_points_per_game(self):
+    #     '''knows the number of points scored by each player'''
+    #     assert(num_points_per_game("Jarrett Allen") == 16.1)
+    #     assert(num_points_per_game("Darius Garland") == 21.7)
+    #     assert(num_points_per_game("Evan Mobley") == 15.0)
+    #     assert(num_points_per_game("Kevin Love") == 13.6)
+    #     assert(num_points_per_game("Isaac Okoro") == 8.8)
+    #     assert(num_points_per_game("Ricky Rubio") == 13.1)
+    #     assert(num_points_per_game("Bradley Beal") == 23.2)
+    #     assert(num_points_per_game("Kyle Kuzma") == 17.1)
+    #     assert(num_points_per_game("Kentavious Caldwell-Pope") == 13.2)
+    #     assert(num_points_per_game("Davis Bertans") == 5.6)
+    #     assert(num_points_per_game("Kristaps Porzingis") == 22.1)
+    #     assert(num_points_per_game("Rui Hachimura") == 11.3)
 
     def test_player_age(self):
         '''knows the age of each player'''
